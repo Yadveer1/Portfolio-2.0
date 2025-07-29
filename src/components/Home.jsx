@@ -24,7 +24,7 @@ return (
             }}
         >
             <img
-                src="/home1.gif"
+                src="home1.gif"
                 alt="Home"
                 style={{
                     width: '100%',
