@@ -312,7 +312,7 @@ function Home() {
                         left: 0,
                         right: 0,
                         height: '10px',
-                        background: 'linear-gradient(180deg, transparent 0%, #fff 100%)',
+                        background: 'linear-gradient(180deg, transparent 50%, #fff 100%)',
                         zIndex: 1
                     }
                 }}
