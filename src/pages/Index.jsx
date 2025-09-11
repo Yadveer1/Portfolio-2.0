@@ -1,12 +1,12 @@
 import { lazy, Suspense } from 'react';
 import LoadingSpinner from '../components/LoadingSpinner';
+import Navbar from './Navbar';
 
 // Lazy load components for better performance
 const Home = lazy(() => import('./Home'));
 const About = lazy(() => import('./About'));
 const Projects = lazy(() => import('./Projects'));
 const Contact = lazy(() => import('./Contact'));
-import Navbar from './Navbar';
 
 // Preload critical components
 const preloadComponents = () => {
@@ -20,8 +20,9 @@ const preloadComponents = () => {
 setTimeout(preloadComponents, 100);
 
 function Index() {
+  
   return (
-    <div className="h-100vh w-full bg-black">
+    <div className="min-h-screen w-full bg-black">
       <Navbar />
       <Suspense fallback={<LoadingSpinner />}>
         <Home />
