@@ -16,9 +16,7 @@ export default defineConfig({
           ui: [
             './src/ui/ProfileCard',
             './src/ui/DecryptLine', 
-            './src/ui/GooeyNav',
-            './src/ui/ModelViewer',
-            './src/ui/LightRays'
+            './src/ui/GooeyNav'
           ],
           // Group utility components
           components: [
