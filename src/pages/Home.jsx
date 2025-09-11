@@ -1,8 +1,5 @@
-import Spline from '@splinetool/react-spline';
 import SplitText from "../ui/SplitText";
 import SparklesPreview from "../components/SparklesPreview";
-import GradualBlur from '../ui/GradualBlur';
-// import ScrollStack, { ScrollStackItem } from '../ui/ScrollStack';
 
 const handleAnimationComplete = () => {
   console.log('All letters have animated!');
