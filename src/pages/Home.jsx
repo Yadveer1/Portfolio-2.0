@@ -9,7 +9,6 @@ const handleAnimationComplete = () => {
 function Home() {
   return (
     <div id="home" className=" h-130 sm:h-150 lg:h-280 mt-40 md:mt-35 overflow-hidden">
-    {/* // <div id="home" className=" h-130 sm:h-80 lg:h-110 mt-40 md:mt-35 overflow-hidden"> */}
 
         <div>
           <div className="flex justify-center w-full"> 
